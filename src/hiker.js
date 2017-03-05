@@ -4,7 +4,7 @@ var planets = {
 };
 
 function lookup(place) {
-  return planet['EARTH'];
+  return planets['EARTH'];
 }
 
 module.exports = {
