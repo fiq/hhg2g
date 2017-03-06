@@ -1,10 +1,10 @@
-"use strict";
+
 var planets = {
   'earth': 'Mostly harmless'
 };
 
 function lookup(place) {
-  return planets['earth'];
+  return planets['EARTH'];
 }
 
 module.exports = {
