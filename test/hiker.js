@@ -1,3 +1,5 @@
+"use strict";
+
 var expect    = require("chai").expect;
 var book      = require("../src/hiker.js");
 describe("Hitch Hikers Guide To The Galaxy", function() {
