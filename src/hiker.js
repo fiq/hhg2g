@@ -7,8 +7,11 @@ var planets = {
   'mars': 'The chances? A 1,000,000:1 they said.',
 };
 
-function lookup(place) {
-  return planets[place];
+function lookup(planet) {
+  if (! planets[planet] ) {
+    return 'That Sir, is NOT a planet!'
+  }
+  return planets[planet];
 }
 
 module.exports = {

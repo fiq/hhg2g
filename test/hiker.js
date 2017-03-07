@@ -15,4 +15,8 @@ describe("Hitch Hikers Guide To The Galaxy", function() {
     expect(book.lookup("mars")).to.equal("The chances? A 1,000,000:1 they said.");
   });
 
+  it("Should handle a lookup for a non-planet", () => {
+    expect( book.lookup("pluto") ).to.equal("That Sir, is NOT a planet!");
+  });
+
 });
