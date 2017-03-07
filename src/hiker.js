@@ -8,7 +8,7 @@ var planets = {
 };
 
 function lookup(planet) {
-  if (! planets[planet] ) {
+  if (! planets.hasOwnProperty(planet) ) {
     return 'That Sir, is NOT a planet!'
   }
   return planets[planet];
